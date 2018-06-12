@@ -15,5 +15,6 @@ Dossier provides easy storage and instant verification of educational credential
 * Safe, because data is immutable
 
 #Contributors
-* Backend : Steve Mann[https://www.stevemann.in] and Viplove Sharma[https://www.linkedin.com/in/viplove-sharma-886527149/]
+* Backend : Steve Mann[https://www.stevemann.in] 
+            Viplove Sharma[https://www.linkedin.com/in/viplove-sharma-886527149/]
 * Frontend : Tanmay Mohan[https://tanmaymohan.com]
