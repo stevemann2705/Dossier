@@ -16,6 +16,8 @@ Dossier provides easy storage and instant verification of educational credential
 
 #Contributors
 [Steve Mann](https://www.linkedin.com/in/stevemann2705/)
+
 [Tanmay Mohan](https://www.linkedin.com/in/viplove-sharma-886527149/)
+
 [Viplove Sharma](https://www.linkedin.com/in/tanmaymohan/)
 
