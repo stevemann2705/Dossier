@@ -14,7 +14,8 @@ Dossier provides easy storage and instant verification of educational credential
 * Immutable, meaning no one can maliciously change records once records are saved on Blockchain making it tamper-proof 
 * Safe, because data is immutable
 
-#Contributors
+# Contributors 
+
 [Steve Mann](https://www.linkedin.com/in/stevemann2705/)
 
 [Tanmay Mohan](https://www.linkedin.com/in/viplove-sharma-886527149/)
