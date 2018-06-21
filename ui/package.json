@@ -4,10 +4,10 @@
   "private": true,
   "dependencies": {
     "bignumber.js": "^6.0.0",
-    "material-ui": "^0.20.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1",
+    "material-ui": "^0.20.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "^1.1.4",
     "web3": "github:ethereum/web3.js"
   },
   "scripts": {
