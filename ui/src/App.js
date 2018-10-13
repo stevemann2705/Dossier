@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import {Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle} from 'material-ui/Toolbar';
-import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
+import {Toolbar, ToolbarTitle} from 'material-ui/Toolbar';
+import {Card, CardTitle, } from 'material-ui/Card';
 import Paper from 'material-ui/Paper'
 import FlatButton from 'material-ui/FlatButton';
 import RaisedButton from 'material-ui/RaisedButton';
@@ -889,7 +888,7 @@ var Dossier = DossierAlpha.at('0xE86f0FAad943Fe76F0D13738f68858b74f0E4E9a');
 var a = Dossier.get_data(8214902016);
 var b = Dossier.get_marks_X_english(8214902016);
 console.log(a);
-console.log(b);
+console.log(b);  // test code
 
 const cardstyle =
 {
@@ -907,7 +906,7 @@ class App extends Component {
       <MuiThemeProvider>
       <div className="App">
         <Toolbar style={toolbarstyle}> 
-        <img src="https://i.imgur.com/Nkh7qZd.png" />
+        <img alt="Dossier" src="https://i.imgur.com/Nkh7qZd.png" />
 <ToolbarTitle style={titlestyle} text="DOSSIER" > </ToolbarTitle>
 
 <TextField 
@@ -925,15 +924,17 @@ this.refs.tchemistry.input.value = resultarray[3];
 this.refs.tcs.input.value = resultarray[4];
 var dataarray = Dossier.get_data(this.refs.ei.input.value);
 this.refs.st_name.input.value = dataarray[0];
+
+} 
 }
-}/>
+/>
 
 
 </Toolbar>
 <Paper zDepth='3'>
 <Card>
-  <CardTitle><strong>Student details</strong></CardTitle>
-<img align="center" src="https://cdn-images-1.medium.com/max/256/1*h0DFnjYAFAZIYoJ_d4-qwQ.png"
+  <CardTitle><strong>Student academic details</strong></CardTitle>
+<img alt="ETH logo" align="center" src="https://cdn-images-1.medium.com/max/256/1*h0DFnjYAFAZIYoJ_d4-qwQ.png"
     
 />
 <TextField ref = "st_name" defaultValue="" />
